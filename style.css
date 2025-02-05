@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    width: 100%;
+    height: 88px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ncc-logo{
+    height: 88px;
+    width: 25%;
+    background-color:#212487f2;
+    background-image: url(/img/NCC_Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.options{
+    width: 75%;
+    background-color: #212487f2;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head-text{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.head-text:hover{
+    text-decoration: solid pink underline 5px ;
+    cursor: pointer;
+}
+
+.iitr-logo{
+    height: 88px;
+    width: 25%;
+    background-color:#212487f2;
+    background-image: url(/img/IITR_Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    margin: 70px 28px;
+}
+
+.box{
+    width: 300px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.box:hover{
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+    cursor: pointer;
+}
+
+/* .image1{
+    background-image: url(/img/ajBlog.jpg);
+ } */
+
+/* .image2{
+    background-image: url(/img/vm.jpg);
+}
+.image3{
+    background-image: url(/img/general.jpg);
+}
+.image4{
+    background-image: url(/img/rs.jpg);
+} */
+
+.image1 img, .image2 img, .image3 img, .image4 img{
+    
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.caption{
+    width: 300px;
+    height: 56px;
+    background-color: #212487f2;
+    color: white;
+    
+    padding: 16px;
+    font-size: 18px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.details{
+    background-color: #212487f2;
+    height: 190px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.contact{
+    width: 200px;
+    height: 180px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.details span{
+    font-size: 30px;
+    text-decoration:underline;
+}
+.phone{
+    padding-left: 8px;
+    font-size: 22px;
+}
+.mobileNo{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.mail{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.mailID{
+    margin-left: 10px;
+    font-size: 22px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.socialMedia{
+    width: 250px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.socialMediaIcon{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    border-radius: 50%;
+}
+.facebook:hover{
+    border-radius: 50%;
+    background-color: #1877F2;
+}
+.youtube:hover{
+    border-radius: 50%;
+    background-color: red;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+
+    width: 176px;
+    height: 180px;
+
+    margin-top: 30px;
+}
+.official_site{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.NCC_official, .IIT_official{
+    display: flex;
+    align-items: center;
+
+    font-size: 22px;
+}
+.address{
+    width: 196px;
+    height: 180px;
+
+    margin-top: 30px;
+}
+.address_text{
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.footer{
+    background-color: #313131;
+    color: white;
+    width: 100%;
+    height: 30PX;
+    padding: 8px;
+    text-align: center;
+    
+}
+
